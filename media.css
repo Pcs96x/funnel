@@ -1,0 +1,114 @@
+@media screen and (min-width: 770px) {
+    .topbar {
+        height: 14.5vh;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2rem;
+    }
+
+    .brandNew h1 {
+        font-size: 1.4rem;
+    }
+
+    .mainHeading h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .copyThe p {
+        font-size: 1.3rem;
+    }
+
+    .btnDiv button {
+        width: 90%;
+        height: 14vh;
+    }
+
+    .grid-mobile {
+        display: none;
+    }
+
+    .grid-desktop {
+        min-height: 80vh;
+        max-height: 70vh;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        'desktop-left' 'desktop-right';
+
+        position: relative;
+    }
+
+    .desktop-left {
+        width: 90%;
+        height: 50vh;
+
+        margin: 0 auto;
+
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .desktop-left h3 {
+        text-align: center;
+        font-family: 'Montserrat', cursive;
+
+        margin-bottom: 1rem;
+    }
+
+    .desktop-left ul {
+        width: 80%;
+        height: fit-content;
+
+        position: relative;
+        margin: 1rem;
+        margin: 0 auto;
+    }
+
+    .desktop-left ul li {
+        font-family: 'Montserrat', cursive;
+
+        list-style-type: none;
+        padding: .5rem;
+    }
+
+    .desktop-left ul li::before {
+        content: "✔";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: -1.5rem;
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+    }
+
+    .desktop-right {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+
+        border: 1px solid red;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .innerFooter {
+        margin-left: 3rem;
+    }
+    
+    .footerLogo p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

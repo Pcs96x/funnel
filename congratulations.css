@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    width: 100%;
+    height: 15vh;
+
+    background-color: black;
+    border-bottom: 4px solid rgba(221, 168, 33, 0.877);
+}
+
+.topbar {
+    width: 100%;
+    max-width: 100%;
+    height: 12vh;
+
+    background-color: black;
+    border-bottom: 3px solid rgba(221, 168, 33, 0.945);
+}
+
+.logo {
+    width: 90%;
+    max-width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.logo p {
+    font-size: 2.5rem;
+    font-family: 'Parisienne', cursive;
+
+    color: rgba(221, 168, 33, 0.966);
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+
+    box-shadow: 0 0 10px grey;
+
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.congrats {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.congrats h1 {
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.6rem;
+
+    color: rgba(0, 0, 0, 0.76);
+
+    margin: 2rem;
+}
+
+.videoDiv {
+    width: 100%;
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.videoDiv p {
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto;
+
+    font-size: .7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    padding: .4rem;
+
+    background-color: rgba(221, 168, 33, 0.945);
+    color: black;
+
+    border-radius: 5px 5px 0 0;
+}
+
+.videoDiv video {
+    width: 95%;
+
+    margin: 0 auto;
+}
+
+.follow {
+    width: 95%;
+
+    margin: 0 auto;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: rgba(221, 168, 33, 0.945);
+    color: rgba(0, 0, 0, 0.76);
+    padding: .7rem;
+}
+
+.checkEmail {
+    margin-top: 2rem;
+
+    position: relative;
+}
+
+.checkEmail ul {
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.checkEmail ul li {
+    font-family: 'Montserrat', cursive;
+    font-size: 1.2rem;
+
+    list-style-type: none;
+    padding: .6em;
+    margin-left: .5rem;
+}
+
+.checkEmail ul li::before {
+    content: "✔";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2rem;
+    font-size: 1.5rem;
+}
+
+.checkEmail ul li:last-child {
+    margin-bottom: -1rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+
+    padding: 1rem;
+
+    background-color: black;
+    border-top: 3px solid rgba(221, 168, 33, 0.945);
+
+    display: grid;
+}
+
+.innerFooter {
+    width: 100%;
+    height: 100%;
+
+    padding: .5rem;
+}
+
+.innerFooter h3 a {
+    width: fit-content;
+
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Montserrat', cursive;
+    text-decoration: none;
+
+    color: rgba(221, 168, 33, 0.945);
+}
+
+.innerFooter h3 a:hover, .innerFooter h3 a:active {
+    text-decoration: underline;
+    color: rgba(221, 168, 33, 0.945);
+}
+
+.footerLinks {
+    margin: .8rem 0;
+    font-family: 'Montserrat', cursive;
+}
+
+.footerSpan {
+    color: white;
+    margin: 0 .5rem;
+}
+
+.disclaimer {
+    max-width: 500px;
+    color: white;
+    font-family: 'Montserrat', cursive;
+    font-size: .7rem;
+}
+
+.footerLogo {
+    display: none;
+}
+
+.footerLogo p {
+    display: none;
+}

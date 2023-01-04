@@ -1,0 +1,47 @@
+@media screen and (min-width: 770px) {
+    .topbar {
+        height: 14.5vh;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2rem;
+    }
+
+    .congrats h1 {
+        font-size: 2.4rem;
+        margin: 3rem;
+    }
+
+    .videoDiv p {
+        width: 85%;
+        font-size: 1rem;
+    }
+
+    .videoDiv video {
+        width: 85%;
+    
+        margin: 0 auto;
+    }
+
+    .follow h3 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .innerFooter {
+        margin-left: 3rem;
+    }
+    
+    .footerLogo p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
